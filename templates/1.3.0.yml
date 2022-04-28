@@ -11,7 +11,7 @@ variables:
   INPUT_POSTCOMMANDS: $POSTCOMMANDS
 
 .wrangler_deploy:
-  image: node:15
+  image: node:latest
   script: |
     # Wrangler Actions for Gitlab CI/CD template
 
